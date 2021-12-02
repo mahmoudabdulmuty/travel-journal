@@ -1,11 +1,16 @@
 import Navbar from './Navbar';
-import Main from './Main';
+import Card from './Card';
+import data from '../data';
 
 export default function App() {
 	return (
-		<div>
+		<>
 			<Navbar />
-			<Main />
-		</div>
+			<div class="container">
+				{data.map((item) => {
+					return <Card {...item} />;
+				})}
+			</div>
+		</>
 	);
 }
