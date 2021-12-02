@@ -1,4 +1,4 @@
-# travel-journal
+# Travel Journal
 
 ## Getting Started with Create React App
 
